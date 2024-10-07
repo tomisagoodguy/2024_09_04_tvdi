@@ -4,6 +4,13 @@
 
 _Writing in Markdown is not that hard!_
 
+_I will complete these **lessons!**_
+
+_"Of course,"_ she whispered. Then, she shouted: "All I need is **a little moxie**!"
+
+**_If you're thinking to yourself, This is unbelievable, you'd probably be right._**conda create --name myenv python=3.10
+
+
 ## 第2章
 
 # Header one
@@ -28,13 +35,11 @@ _Writing in Markdown is not that hard!_
 
 # 第5章
 
-
 I read this interesting quote the other day:
 
 > "Her eyes had called him and his soul had leaped at the call. To live, to err, to fall, to triumph, to recreate life out of life!"
 
 # 第6章
-
 
 # * Flour
 
