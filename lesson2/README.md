@@ -39,4 +39,4 @@ with open('up_25.csv',mode='w',encoding='utf-8-sig') as file:
     for student in up_25:
         writer.writerow(student)
         
-    ```
+ ```
