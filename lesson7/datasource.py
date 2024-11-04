@@ -2,7 +2,15 @@ import requests
 import sqlite3
 
 
+
 def get_sitename() -> list[str]:
+    '''
+    doccString
+    parameter:
+    return:
+        傳出所有站點名稱
+
+    '''
     conn = sqlite3.connect("AQI.db")
     with conn:
         cursor = conn.cursor()
@@ -18,6 +26,15 @@ def get_sitename() -> list[str]:
 
 def get_selected_data(sitename: str) -> list[list]:
     url = 'https://data.moenv.gov.tw/api/v2/aqx_p_488?api_key=e8dd42e6-9b8b-43f8-991e-b3dee723a52d&limit=1000&sort=datacreationdate%20desc&format=JSON'
+    
+    '''
+    使用者選擇了sitename，並將sitename傳入
+    parameter:
+        sitename: 站點的名稱
+    Return:
+        所有關於此站點的相關資料
+    
+    '''
     try:
         response = requests.get(url)
         response.raise_for_status()
