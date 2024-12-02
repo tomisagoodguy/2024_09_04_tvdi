@@ -3,3 +3,5 @@
 11309職能發展學院
 
 python 介面教學
+
+flask --app lesson13_1 run --debug
